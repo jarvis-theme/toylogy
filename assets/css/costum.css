@@ -1,0 +1,33 @@
+
+h1 { font: normal 38px/40px Abel, sans-serif;  color:#000000; }
+h2 { font: normal 36px/38px Abel, sans-serif;  color:#000000; }
+h3 { font: normal 26px/28px Abel, sans-serif;  color:#000000; }
+h4 { font: normal 24px/26px Abel, sans-serif;  color:#aca9a5; }
+h5 { font: normal 14px/18px Abel, sans-serif;  color:#aca9a5; }
+h6 { font: normal 12px/18px Abel, sans-serif;  color:#aca9a5; }
+body { font-weight: normal;}
+.logo_h__txt, .logo_link { font: normal 88px/92px Abel, sans-serif;  color:#ce1d00; }
+.sf-menu > li > a { font: normal 26px/30px Abel, sans-serif;  color:#ce1d00; }
+.nav.footer-nav a { font: bold 12px/18px Abel, sans-serif;  color:#000000; }
+
+
+header.header { background-color: #faf38b; }
+
+.logo .logo_h { max-width: 250px; }
+
+body #motopress-main.main-holder .content-holder { /*background-color: #ffffff;*/ }
+
+footer.footer { background-color: #faf38b; }
+
+.banner-wrap { min-height: 105px; }
+
+.logo_tagline { display:none; }
+
+.foot-logo-h { max-width: 250px; margin-top: -10px; }
+
+.search-form { margin-bottom: -20px; }
+
+.banner-box .banner4 span.text3 {
+font-size: 36px;
+padding: 1px 32px 0;
+}
