@@ -123,12 +123,14 @@
 							<div class="cat-block">
 								<h2>categories:</h2>
 								<ul class='advanced_categories cols_1'>
-									@foreach(category_menu() as $menu)
+									@foreach(category_menu() as $key=>$menu)
+									@if($key!='10')
 									<li class='advanced_categories_item last'>
 										<div class='advanced_categories_item_inner'>
 											<h4><a href="{{category_url($menu)}}">{{$menu->nama}}</a></h4>
 										</div>
 									</li>
+									@endif
 									@endforeach
 									@foreach(list_koleksi() as $koleksi)
 									<li class='advanced_categories_item last'>
@@ -150,7 +152,7 @@
 												<a href="{{product_url($products)}}">
 
 													
-													<h3>{{short_description($products->nama,27)}}</h3>
+													<h3>{{$products->nama}}</h3>
 
 													<img width="222" height="222" src="{{url(product_image_url($products->gambar1))}}" class="attachment-shop_catalog wp-post-image" alt="toylogy toko mainan anak online dora drum set" />
 
