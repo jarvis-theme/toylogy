@@ -2,7 +2,6 @@
 	<meta name="description" content="{{$description}}">
 	<meta name="keywords" content="{{$keywords}}">
 	<meta name="rating" content="general">
-	<meta name="author" content="jarvis-store">
 	<meta name="robots" content="index, follow">
 	<meta http-equiv="classification" content="Toko online">
 	<meta name="url" content="{{URL::current()}}">
@@ -22,6 +21,6 @@
 	<meta itemprop="description" content="">
 	<meta itemprop="image" content="">
 
+	<meta name="theme_path" content="{{theme_path()}}">
 	<link rel="canonical" href="{{URL::full()}}">
-	<link rel="handicraft-theme" href="{{dirTemaToko()}}handicraft/">
-	
+	{{ pluginHeader() }}
